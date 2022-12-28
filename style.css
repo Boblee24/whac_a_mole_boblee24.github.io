@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#grid {
+    width: 330px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child{
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+}
+
+.mole {
+    background-image: url(Images/LMG6.jpg);
+    height: 110px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
